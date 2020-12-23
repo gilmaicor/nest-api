@@ -1,8 +1,8 @@
 # dock.sh
-npm install
-
 sudo docker-compose stop
 
-sudo docker-compose build
-sudo docker-compose up -d
-sudo docker-compose start
+# sudo docker-compose build
+
+sudo docker-compose up --build
+
+# sudo docker-compose start
